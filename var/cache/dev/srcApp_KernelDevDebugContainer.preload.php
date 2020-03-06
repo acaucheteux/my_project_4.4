@@ -6,7 +6,7 @@
 use Symfony\Component\DependencyInjection\Dumper\Preloader;
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/ContainerUD3HJ2A/srcApp_KernelDevDebugContainer.php';
+require __DIR__.'/ContainerOeCTTRc/srcApp_KernelDevDebugContainer.php';
 
 $classes = [];
 $classes[] = 'App\Kernel';
@@ -102,6 +102,11 @@ $classes[] = 'Symfony\Bridge\Twig\Extension\DumpExtension';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Twig\DoctrineExtension';
 $classes[] = 'Symfony\Bundle\WebProfilerBundle\Twig\WebProfilerExtension';
 $classes[] = 'Symfony\Component\VarDumper\Dumper\HtmlDumper';
+$classes[] = 'Knp\Menu\Twig\MenuExtension';
+$classes[] = 'Knp\Menu\Twig\Helper';
+$classes[] = 'Knp\Menu\Renderer\PsrProvider';
+$classes[] = 'Knp\Menu\Provider\ChainProvider';
+$classes[] = 'Knp\Menu\Util\MenuManipulator';
 $classes[] = 'Symfony\Bridge\Twig\AppVariable';
 $classes[] = 'Twig\RuntimeLoader\ContainerRuntimeLoader';
 $classes[] = 'Twig\Extra\TwigExtraBundle\MissingExtensionSuggestor';
@@ -163,6 +168,7 @@ $classes[] = 'Symfony\Component\VarDumper\Server\Connection';
 $classes[] = 'Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider';
 $classes[] = 'Symfony\Component\VarDumper\Dumper\ContextProvider\RequestContextProvider';
 $classes[] = 'Symfony\Component\VarDumper\Dumper\ContextProvider\CliContextProvider';
+$classes[] = 'Knp\Menu\Matcher\Matcher';
 $classes[] = 'Symfony\Component\HttpClient\TraceableHttpClient';
 $classes[] = 'Symfony\Component\HttpClient\HttpClient';
 $classes[] = 'Symfony\Component\Translation\DataCollectorTranslator';
