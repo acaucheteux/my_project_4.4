@@ -1,6 +1,6 @@
 
 ###> symfony/framework-bundle ###
-/var/cache/
+/var/**
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
