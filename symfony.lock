@@ -114,14 +114,32 @@
     "gedmo/doctrine-extensions": {
         "version": "v2.4.39"
     },
+    "h4cc/wkhtmltoimage-amd64": {
+        "version": "0.12.4"
+    },
+    "h4cc/wkhtmltoimage-i386": {
+        "version": "0.12.4"
+    },
+    "h4cc/wkhtmltopdf-amd64": {
+        "version": "0.12.4"
+    },
+    "h4cc/wkhtmltopdf-i386": {
+        "version": "0.12.4"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
+    },
+    "knplabs/knp-components": {
+        "version": "v2.3.3"
     },
     "knplabs/knp-menu": {
         "version": "v3.1.0"
     },
     "knplabs/knp-menu-bundle": {
         "version": "v3.0.0"
+    },
+    "knplabs/knp-paginator-bundle": {
+        "version": "v5.1.1"
     },
     "knplabs/knp-snappy": {
         "version": "v1.2.1"
@@ -168,6 +186,9 @@
     "phpoffice/phpspreadsheet": {
         "version": "1.11.0"
     },
+    "phpspec/prophecy": {
+        "version": "v1.10.3"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -182,6 +203,18 @@
     },
     "psr/simple-cache": {
         "version": "1.0.1"
+    },
+    "sebastian/comparator": {
+        "version": "4.0.0"
+    },
+    "sebastian/diff": {
+        "version": "4.0.0"
+    },
+    "sebastian/exporter": {
+        "version": "4.0.0"
+    },
+    "sebastian/recursion-context": {
+        "version": "4.0.0"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -337,6 +370,9 @@
         "version": "v4.4.5"
     },
     "symfony/intl": {
+        "version": "v4.4.5"
+    },
+    "symfony/ldap": {
         "version": "v4.4.5"
     },
     "symfony/mailer": {

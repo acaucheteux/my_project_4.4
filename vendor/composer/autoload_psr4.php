@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
+    'h4cc\\WKHTMLToPDF\\' => array($vendorDir . '/h4cc/wkhtmltopdf-amd64'),
     'Zend\\EventManager\\' => array($vendorDir . '/zendframework/zend-eventmanager/src'),
     'Zend\\Code\\' => array($vendorDir . '/zendframework/zend-code/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
@@ -42,6 +43,7 @@ return array(
     'Symfony\\Component\\OptionsResolver\\' => array($vendorDir . '/symfony/options-resolver'),
     'Symfony\\Component\\Mime\\' => array($vendorDir . '/symfony/mime'),
     'Symfony\\Component\\Mailer\\' => array($vendorDir . '/symfony/mailer'),
+    'Symfony\\Component\\Ldap\\' => array($vendorDir . '/symfony/ldap'),
     'Symfony\\Component\\Intl\\' => array($vendorDir . '/symfony/intl'),
     'Symfony\\Component\\Inflector\\' => array($vendorDir . '/symfony/inflector'),
     'Symfony\\Component\\HttpKernel\\' => array($vendorDir . '/symfony/http-kernel'),
@@ -81,6 +83,7 @@ return array(
     'Psr\\Link\\' => array($vendorDir . '/psr/link/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Psr\\Cache\\' => array($vendorDir . '/psr/cache/src'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src/Prophecy'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'PhpOffice\\PhpSpreadsheet\\' => array($vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet'),
     'PhpOffice\\PhpPresentation\\' => array($vendorDir . '/phpoffice/phppresentation/src/PhpPresentation'),
@@ -90,6 +93,8 @@ return array(
     'Matrix\\' => array($vendorDir . '/markbaker/matrix/classes/src'),
     'Knp\\Snappy\\' => array($vendorDir . '/knplabs/knp-snappy/src/Knp/Snappy'),
     'Knp\\Menu\\' => array($vendorDir . '/knplabs/knp-menu/src/Knp/Menu'),
+    'Knp\\Component\\' => array($vendorDir . '/knplabs/knp-components/src/Knp/Component'),
+    'Knp\\Bundle\\PaginatorBundle\\' => array($vendorDir . '/knplabs/knp-paginator-bundle/src'),
     'Knp\\Bundle\\MenuBundle\\' => array($vendorDir . '/knplabs/knp-menu-bundle/src'),
     'Gedmo\\' => array($vendorDir . '/gedmo/doctrine-extensions/lib/Gedmo'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/EmailValidator'),

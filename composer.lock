@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec07583187686c78d96025cdbe796c19",
+    "content-hash": "011c2f09d9e5245623857ba7c05080e1",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1042,16 +1042,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.7.1",
+            "version": "v2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "445796af0e873d9bd04f2502d322a7d5009b6846"
+                "reference": "dafe298ce5d0b995ebe1746670704c0a35868a6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/445796af0e873d9bd04f2502d322a7d5009b6846",
-                "reference": "445796af0e873d9bd04f2502d322a7d5009b6846",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/dafe298ce5d0b995ebe1746670704c0a35868a6a",
+                "reference": "dafe298ce5d0b995ebe1746670704c0a35868a6a",
                 "shasum": ""
             },
             "require": {
@@ -1122,20 +1122,20 @@
                 "database",
                 "orm"
             ],
-            "time": "2020-02-15T14:35:56+00:00"
+            "time": "2020-03-19T06:41:02+00:00"
         },
         {
             "name": "doctrine/persistence",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "5dd3ac5eebef2d0b074daa4440bb18f93132dee4"
+                "reference": "0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/5dd3ac5eebef2d0b074daa4440bb18f93132dee4",
-                "reference": "5dd3ac5eebef2d0b074daa4440bb18f93132dee4",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0",
+                "reference": "0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0",
                 "shasum": ""
             },
             "require": {
@@ -1143,7 +1143,7 @@
                 "doctrine/cache": "^1.0",
                 "doctrine/collections": "^1.0",
                 "doctrine/event-manager": "^1.0",
-                "doctrine/reflection": "^1.1",
+                "doctrine/reflection": "^1.2",
                 "php": "^7.1"
             },
             "conflict": {
@@ -1205,20 +1205,20 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2020-01-16T22:06:23+00:00"
+            "time": "2020-03-21T15:13:52+00:00"
         },
         {
             "name": "doctrine/reflection",
-            "version": "v1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/reflection.git",
-                "reference": "bc420ead87fdfe08c03ecc3549db603a45b06d4c"
+                "reference": "b699ecc7f2784d1e49924fd9858cf1078db6b0e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/reflection/zipball/bc420ead87fdfe08c03ecc3549db603a45b06d4c",
-                "reference": "bc420ead87fdfe08c03ecc3549db603a45b06d4c",
+                "url": "https://api.github.com/repos/doctrine/reflection/zipball/b699ecc7f2784d1e49924fd9858cf1078db6b0e2",
+                "reference": "b699ecc7f2784d1e49924fd9858cf1078db6b0e2",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1239,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -1283,7 +1283,7 @@
                 "reflection",
                 "static"
             ],
-            "time": "2020-01-08T19:53:19+00:00"
+            "time": "2020-03-21T11:34:59+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1426,6 +1426,171 @@
             "time": "2020-01-18T06:26:05+00:00"
         },
         {
+            "name": "h4cc/wkhtmltoimage-amd64",
+            "version": "0.12.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/h4cc/wkhtmltoimage-amd64.git",
+                "reference": "c4e33f635207af89a704205b8902fb5715ca88be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/h4cc/wkhtmltoimage-amd64/zipball/c4e33f635207af89a704205b8902fb5715ca88be",
+                "reference": "c4e33f635207af89a704205b8902fb5715ca88be",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/wkhtmltoimage-amd64"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL Version 3"
+            ],
+            "authors": [
+                {
+                    "name": "Julius Beckmann",
+                    "email": "github@h4cc.de"
+                }
+            ],
+            "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+            "homepage": "http://wkhtmltopdf.org/",
+            "keywords": [
+                "binary",
+                "convert",
+                "image",
+                "snapshot",
+                "thumbnail",
+                "wkhtmltoimage"
+            ],
+            "time": "2018-01-15T07:23:40+00:00"
+        },
+        {
+            "name": "h4cc/wkhtmltoimage-i386",
+            "version": "0.12.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/h4cc/wkhtmltoimage-i386.git",
+                "reference": "64f7a1c7d1e42d6741e22a080206c00c4899e88b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/h4cc/wkhtmltoimage-i386/zipball/64f7a1c7d1e42d6741e22a080206c00c4899e88b",
+                "reference": "64f7a1c7d1e42d6741e22a080206c00c4899e88b",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/wkhtmltoimage-i386"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL Version 3"
+            ],
+            "authors": [
+                {
+                    "name": "Julius Beckmann",
+                    "email": "github@h4cc.de"
+                }
+            ],
+            "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for i386 systems.",
+            "homepage": "http://wkhtmltopdf.org/",
+            "keywords": [
+                "binary",
+                "convert",
+                "image",
+                "snapshot",
+                "thumbnail",
+                "wkhtmltoimage"
+            ],
+            "time": "2018-01-15T07:28:21+00:00"
+        },
+        {
+            "name": "h4cc/wkhtmltopdf-amd64",
+            "version": "0.12.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/h4cc/wkhtmltopdf-amd64.git",
+                "reference": "4e2ab2d032a5d7fbe2a741de8b10b8989523c95b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/h4cc/wkhtmltopdf-amd64/zipball/4e2ab2d032a5d7fbe2a741de8b10b8989523c95b",
+                "reference": "4e2ab2d032a5d7fbe2a741de8b10b8989523c95b",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/wkhtmltopdf-amd64"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "h4cc\\WKHTMLToPDF\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL Version 3"
+            ],
+            "authors": [
+                {
+                    "name": "Julius Beckmann",
+                    "email": "github@h4cc.de"
+                }
+            ],
+            "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+            "homepage": "http://wkhtmltopdf.org/",
+            "keywords": [
+                "binary",
+                "convert",
+                "pdf",
+                "snapshot",
+                "thumbnail",
+                "wkhtmltopdf"
+            ],
+            "time": "2018-01-15T06:57:33+00:00"
+        },
+        {
+            "name": "h4cc/wkhtmltopdf-i386",
+            "version": "0.12.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/h4cc/wkhtmltopdf-i386.git",
+                "reference": "da14486ec8eba1873b026b56126ed02d2f2ae5e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/h4cc/wkhtmltopdf-i386/zipball/da14486ec8eba1873b026b56126ed02d2f2ae5e3",
+                "reference": "da14486ec8eba1873b026b56126ed02d2f2ae5e3",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/wkhtmltopdf-i386"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL Version 3"
+            ],
+            "authors": [
+                {
+                    "name": "Julius Beckmann",
+                    "email": "github@h4cc.de"
+                }
+            ],
+            "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for i386 systems.",
+            "homepage": "http://wkhtmltopdf.org/",
+            "keywords": [
+                "binary",
+                "convert",
+                "pdf",
+                "snapshot",
+                "thumbnail",
+                "wkhtmltopdf"
+            ],
+            "time": "2018-01-15T07:18:15+00:00"
+        },
+        {
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
@@ -1474,6 +1639,81 @@
                 "sql"
             ],
             "time": "2014-01-12T16:20:24+00:00"
+        },
+        {
+            "name": "knplabs/knp-components",
+            "version": "v2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/knp-components.git",
+                "reference": "5a89e60dfe93179f329e35f92ed9348d52143f7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/5a89e60dfe93179f329e35f92ed9348d52143f7b",
+                "reference": "5a89e60dfe93179f329e35f92ed9348d52143f7b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2",
+                "symfony/event-dispatcher": "^3.4 || ^4.0 || ^5.0",
+                "symfony/http-foundation": "^3.4 || ^4.0 || ^5.0"
+            },
+            "require-dev": {
+                "doctrine/mongodb-odm": "^2.0",
+                "doctrine/orm": "^2.5",
+                "doctrine/phpcr-odm": "^1.2",
+                "jackalope/jackalope-doctrine-dbal": "^1.2",
+                "phpunit/phpunit": "^8.0",
+                "ruflin/elastica": "^1.0",
+                "symfony/http-kernel": "^3.4 || ^4.0 || ^5.0",
+                "symfony/property-access": "^3.4 || ^4.0 || ^5.0"
+            },
+            "suggest": {
+                "doctrine/common": "to allow usage pagination with Doctrine ArrayCollection",
+                "doctrine/mongodb-odm": "to allow usage pagination with Doctrine ODM MongoDB",
+                "doctrine/orm": "to allow usage pagination with Doctrine ORM",
+                "doctrine/phpcr-odm": "to allow usage pagination with Doctrine ODM PHPCR",
+                "propel/propel1": "to allow usage pagination with Propel ORM",
+                "ruflin/elastica": "to allow usage pagination with ElasticSearch Client",
+                "solarium/solarium": "to allow usage pagination with Solarium Client",
+                "symfony/property-access": "To allow sorting arrays"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Component\\": "src/Knp/Component"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "https://knplabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/KnpLabs/knp-components/contributors"
+                }
+            ],
+            "description": "Knplabs component library",
+            "homepage": "http://github.com/KnpLabs/knp-components",
+            "keywords": [
+                "components",
+                "knp",
+                "knplabs",
+                "pager",
+                "paginator"
+            ],
+            "time": "2020-02-24T15:11:24+00:00"
         },
         {
             "name": "knplabs/knp-menu",
@@ -1604,6 +1844,75 @@
             "time": "2019-12-01T13:07:41+00:00"
         },
         {
+            "name": "knplabs/knp-paginator-bundle",
+            "version": "v5.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
+                "reference": "086da9cd27262ba45bcaca3a6777e97068fce8de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/086da9cd27262ba45bcaca3a6777e97068fce8de",
+                "reference": "086da9cd27262ba45bcaca3a6777e97068fce8de",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-components": "^2.0",
+                "php": "^7.2",
+                "symfony/config": "^4.3 || ^5.0",
+                "symfony/dependency-injection": "^4.3 || ^5.0",
+                "symfony/event-dispatcher": "^4.3 || ^5.0",
+                "symfony/http-foundation": "^4.3 || ^5.0",
+                "symfony/http-kernel": "^4.3 || ^5.0",
+                "symfony/routing": "^4.3 || ^5.0",
+                "symfony/translation": "^4.3 || ^5.0",
+                "twig/twig": "^2.0 || ^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5 || ^8.5",
+                "symfony/expression-language": "^4.3 || ^5.0",
+                "symfony/templating": "^4.3 || ^5.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Bundle\\PaginatorBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "http://knplabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://github.com/KnpLabs/KnpPaginatorBundle/contributors"
+                }
+            ],
+            "description": "Paginator bundle for Symfony to automate pagination and simplify sorting and other features",
+            "homepage": "http://github.com/KnpLabs/KnpPaginatorBundle",
+            "keywords": [
+                "bundle",
+                "knp",
+                "knplabs",
+                "pager",
+                "pagination",
+                "paginator",
+                "symfony"
+            ],
+            "time": "2020-01-21T17:00:39+00:00"
+        },
+        {
             "name": "knplabs/knp-snappy",
             "version": "v1.2.1",
             "source": {
@@ -1671,30 +1980,30 @@
         },
         {
             "name": "markbaker/complex",
-            "version": "1.4.7",
+            "version": "1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MarkBaker/PHPComplex.git",
-                "reference": "1ea674a8308baf547cbcbd30c5fcd6d301b7c000"
+                "reference": "8eaa40cceec7bf0518187530b2e63871be661b72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MarkBaker/PHPComplex/zipball/1ea674a8308baf547cbcbd30c5fcd6d301b7c000",
-                "reference": "1ea674a8308baf547cbcbd30c5fcd6d301b7c000",
+                "url": "https://api.github.com/repos/MarkBaker/PHPComplex/zipball/8eaa40cceec7bf0518187530b2e63871be661b72",
+                "reference": "8eaa40cceec7bf0518187530b2e63871be661b72",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6.0|^7.0.0"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
-                "phpcompatibility/php-compatibility": "^8.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.0",
                 "phpdocumentor/phpdocumentor": "2.*",
                 "phploc/phploc": "2.*",
                 "phpmd/phpmd": "2.*",
                 "phpunit/phpunit": "^4.8.35|^5.4.0",
                 "sebastian/phpcpd": "2.*",
-                "squizlabs/php_codesniffer": "^3.3.0"
+                "squizlabs/php_codesniffer": "^3.4.0"
             },
             "type": "library",
             "autoload": {
@@ -1762,7 +2071,7 @@
                 "complex",
                 "mathematics"
             ],
-            "time": "2018-10-13T23:28:42+00:00"
+            "time": "2020-03-11T20:15:49+00:00"
         },
         {
             "name": "markbaker/matrix",
@@ -2437,6 +2746,69 @@
             "time": "2020-03-02T13:09:03+00:00"
         },
         {
+            "name": "phpspec/prophecy",
+            "version": "v1.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/prophecy.git",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/451c3cd1418cf640de218914901e51b064abb093",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "^1.0.2",
+                "php": "^5.3|^7.0",
+                "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0|^5.0",
+                "sebastian/comparator": "^1.2.3|^2.0|^3.0|^4.0",
+                "sebastian/recursion-context": "^1.0|^2.0|^3.0|^4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^2.5 || ^3.2",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Prophecy\\": "src/Prophecy"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com",
+                    "homepage": "http://everzet.com"
+                },
+                {
+                    "name": "Marcello Duarte",
+                    "email": "marcello.duarte@gmail.com"
+                }
+            ],
+            "description": "Highly opinionated mocking framework for PHP 5.3+",
+            "homepage": "https://github.com/phpspec/prophecy",
+            "keywords": [
+                "Double",
+                "Dummy",
+                "fake",
+                "mock",
+                "spy",
+                "stub"
+            ],
+            "time": "2020-03-05T15:02:03+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "1.0.1",
             "source": {
@@ -2582,16 +2954,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": ""
             },
             "require": {
@@ -2625,7 +2997,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-11-01T11:05:21+00:00"
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -2674,6 +3046,246 @@
                 "simple-cache"
             ],
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "sebastian/comparator",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/comparator.git",
+                "reference": "85b3435da967696ed618ff745f32be3ff4a2b8e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/85b3435da967696ed618ff745f32be3ff4a2b8e8",
+                "reference": "85b3435da967696ed618ff745f32be3ff4a2b8e8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3",
+                "sebastian/diff": "^4.0",
+                "sebastian/exporter": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                }
+            ],
+            "description": "Provides the functionality to compare PHP values for equality",
+            "homepage": "https://github.com/sebastianbergmann/comparator",
+            "keywords": [
+                "comparator",
+                "compare",
+                "equality"
+            ],
+            "time": "2020-02-07T06:08:51+00:00"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "c0c26c9188b538bfa985ae10c9f05d278f12060d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/c0c26c9188b538bfa985ae10c9f05d278f12060d",
+                "reference": "c0c26c9188b538bfa985ae10c9f05d278f12060d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0",
+                "symfony/process": "^4 || ^5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "https://github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff",
+                "udiff",
+                "unidiff",
+                "unified diff"
+            ],
+            "time": "2020-02-07T06:09:38+00:00"
+        },
+        {
+            "name": "sebastian/exporter",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "80c26562e964016538f832f305b2286e1ec29566"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/80c26562e964016538f832f305b2286e1ec29566",
+                "reference": "80c26562e964016538f832f305b2286e1ec29566",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3",
+                "sebastian/recursion-context": "^4.0"
+            },
+            "require-dev": {
+                "ext-mbstring": "*",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Provides the functionality to export PHP variables for visualization",
+            "homepage": "http://www.github.com/sebastianbergmann/exporter",
+            "keywords": [
+                "export",
+                "exporter"
+            ],
+            "time": "2020-02-07T06:10:52+00:00"
+        },
+        {
+            "name": "sebastian/recursion-context",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "cdd86616411fc3062368b720b0425de10bd3d579"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/cdd86616411fc3062368b720b0425de10bd3d579",
+                "reference": "cdd86616411fc3062368b720b0425de10bd3d579",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides functionality to recursively process PHP variables",
+            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "time": "2020-02-07T06:18:20+00:00"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -4431,6 +5043,67 @@
                 "localization"
             ],
             "time": "2020-02-04T09:32:40+00:00"
+        },
+        {
+            "name": "symfony/ldap",
+            "version": "v4.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/ldap.git",
+                "reference": "e417c8b9c9f9c19f9bcfb2d5d13de5bd5d0c04c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/ldap/zipball/e417c8b9c9f9c19f9bcfb2d5d13de5bd5d0c04c5",
+                "reference": "e417c8b9c9f9c19f9bcfb2d5d13de5bd5d0c04c5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ldap": "*",
+                "php": "^7.1.3",
+                "symfony/options-resolver": "^4.2|^5.0"
+            },
+            "conflict": {
+                "symfony/options-resolver": "<4.2"
+            },
+            "require-dev": {
+                "symfony/security-core": "^4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Ldap\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charles Sarrazin",
+                    "email": "charles@sarraz.in"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "An abstraction in front of PHP's LDAP functions, compatible with PHP 5.3.9 onwards.",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "active directory",
+                "ldap"
+            ],
+            "time": "2020-02-24T13:10:00+00:00"
         },
         {
             "name": "symfony/mailer",

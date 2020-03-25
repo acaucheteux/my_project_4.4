@@ -79,6 +79,10 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'h' => 
+        array (
+            'h4cc\\WKHTMLToPDF\\' => 17,
+        ),
         'Z' => 
         array (
             'Zend\\EventManager\\' => 18,
@@ -125,6 +129,7 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
             'Symfony\\Component\\OptionsResolver\\' => 34,
             'Symfony\\Component\\Mime\\' => 23,
             'Symfony\\Component\\Mailer\\' => 25,
+            'Symfony\\Component\\Ldap\\' => 23,
             'Symfony\\Component\\Intl\\' => 23,
             'Symfony\\Component\\Inflector\\' => 28,
             'Symfony\\Component\\HttpKernel\\' => 29,
@@ -167,6 +172,7 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
             'Psr\\Link\\' => 9,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'Prophecy\\' => 9,
             'PhpParser\\' => 10,
             'PhpOffice\\PhpSpreadsheet\\' => 25,
             'PhpOffice\\PhpPresentation\\' => 26,
@@ -182,6 +188,8 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
         array (
             'Knp\\Snappy\\' => 11,
             'Knp\\Menu\\' => 9,
+            'Knp\\Component\\' => 14,
+            'Knp\\Bundle\\PaginatorBundle\\' => 27,
             'Knp\\Bundle\\MenuBundle\\' => 22,
         ),
         'G' => 
@@ -233,6 +241,10 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'h4cc\\WKHTMLToPDF\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/h4cc/wkhtmltopdf-amd64',
         ),
         'Zend\\EventManager\\' => 
         array (
@@ -373,6 +385,10 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
         'Symfony\\Component\\Mailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/mailer',
+        ),
+        'Symfony\\Component\\Ldap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/ldap',
         ),
         'Symfony\\Component\\Intl\\' => 
         array (
@@ -530,6 +546,10 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'Prophecy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -565,6 +585,14 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
         'Knp\\Menu\\' => 
         array (
             0 => __DIR__ . '/..' . '/knplabs/knp-menu/src/Knp/Menu',
+        ),
+        'Knp\\Component\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-components/src/Knp/Component',
+        ),
+        'Knp\\Bundle\\PaginatorBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-paginator-bundle/src',
         ),
         'Knp\\Bundle\\MenuBundle\\' => 
         array (
@@ -684,6 +712,41 @@ class ComposerStaticInit48f4708ab6f8da805748b8e41eb5a78f
         'Locale' => __DIR__ . '/..' . '/symfony/intl/Resources/stubs/Locale.php',
         'NumberFormatter' => __DIR__ . '/..' . '/symfony/intl/Resources/stubs/NumberFormatter.php',
         'PclZip' => __DIR__ . '/..' . '/pclzip/pclzip/pclzip.lib.php',
+        'SebastianBergmann\\Comparator\\ArrayComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ArrayComparator.php',
+        'SebastianBergmann\\Comparator\\Comparator' => __DIR__ . '/..' . '/sebastian/comparator/src/Comparator.php',
+        'SebastianBergmann\\Comparator\\ComparisonFailure' => __DIR__ . '/..' . '/sebastian/comparator/src/ComparisonFailure.php',
+        'SebastianBergmann\\Comparator\\DOMNodeComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/DOMNodeComparator.php',
+        'SebastianBergmann\\Comparator\\DateTimeComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/DateTimeComparator.php',
+        'SebastianBergmann\\Comparator\\DoubleComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/DoubleComparator.php',
+        'SebastianBergmann\\Comparator\\ExceptionComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ExceptionComparator.php',
+        'SebastianBergmann\\Comparator\\Factory' => __DIR__ . '/..' . '/sebastian/comparator/src/Factory.php',
+        'SebastianBergmann\\Comparator\\MockObjectComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/MockObjectComparator.php',
+        'SebastianBergmann\\Comparator\\NumericComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/NumericComparator.php',
+        'SebastianBergmann\\Comparator\\ObjectComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ObjectComparator.php',
+        'SebastianBergmann\\Comparator\\ResourceComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ResourceComparator.php',
+        'SebastianBergmann\\Comparator\\ScalarComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ScalarComparator.php',
+        'SebastianBergmann\\Comparator\\SplObjectStorageComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/SplObjectStorageComparator.php',
+        'SebastianBergmann\\Comparator\\TypeComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/TypeComparator.php',
+        'SebastianBergmann\\Diff\\Chunk' => __DIR__ . '/..' . '/sebastian/diff/src/Chunk.php',
+        'SebastianBergmann\\Diff\\ConfigurationException' => __DIR__ . '/..' . '/sebastian/diff/src/Exception/ConfigurationException.php',
+        'SebastianBergmann\\Diff\\Diff' => __DIR__ . '/..' . '/sebastian/diff/src/Diff.php',
+        'SebastianBergmann\\Diff\\Differ' => __DIR__ . '/..' . '/sebastian/diff/src/Differ.php',
+        'SebastianBergmann\\Diff\\Exception' => __DIR__ . '/..' . '/sebastian/diff/src/Exception/Exception.php',
+        'SebastianBergmann\\Diff\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/diff/src/Exception/InvalidArgumentException.php',
+        'SebastianBergmann\\Diff\\Line' => __DIR__ . '/..' . '/sebastian/diff/src/Line.php',
+        'SebastianBergmann\\Diff\\LongestCommonSubsequenceCalculator' => __DIR__ . '/..' . '/sebastian/diff/src/LongestCommonSubsequenceCalculator.php',
+        'SebastianBergmann\\Diff\\MemoryEfficientLongestCommonSubsequenceCalculator' => __DIR__ . '/..' . '/sebastian/diff/src/MemoryEfficientLongestCommonSubsequenceCalculator.php',
+        'SebastianBergmann\\Diff\\Output\\AbstractChunkOutputBuilder' => __DIR__ . '/..' . '/sebastian/diff/src/Output/AbstractChunkOutputBuilder.php',
+        'SebastianBergmann\\Diff\\Output\\DiffOnlyOutputBuilder' => __DIR__ . '/..' . '/sebastian/diff/src/Output/DiffOnlyOutputBuilder.php',
+        'SebastianBergmann\\Diff\\Output\\DiffOutputBuilderInterface' => __DIR__ . '/..' . '/sebastian/diff/src/Output/DiffOutputBuilderInterface.php',
+        'SebastianBergmann\\Diff\\Output\\StrictUnifiedDiffOutputBuilder' => __DIR__ . '/..' . '/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php',
+        'SebastianBergmann\\Diff\\Output\\UnifiedDiffOutputBuilder' => __DIR__ . '/..' . '/sebastian/diff/src/Output/UnifiedDiffOutputBuilder.php',
+        'SebastianBergmann\\Diff\\Parser' => __DIR__ . '/..' . '/sebastian/diff/src/Parser.php',
+        'SebastianBergmann\\Diff\\TimeEfficientLongestCommonSubsequenceCalculator' => __DIR__ . '/..' . '/sebastian/diff/src/TimeEfficientLongestCommonSubsequenceCalculator.php',
+        'SebastianBergmann\\Exporter\\Exporter' => __DIR__ . '/..' . '/sebastian/exporter/src/Exporter.php',
+        'SebastianBergmann\\RecursionContext\\Context' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Context.php',
+        'SebastianBergmann\\RecursionContext\\Exception' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Exception.php',
+        'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SqlFormatter' => __DIR__ . '/..' . '/jdorn/sql-formatter/lib/SqlFormatter.php',
     );
 
